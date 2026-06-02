@@ -1,0 +1,15 @@
+[package]
+name = "harmonic-analysis"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/SuperInstance/harmonic-analysis"
+description = "Harmonic analysis in Rust — Fourier series, DFT/FFT, wavelets, spectral estimation"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+num-complex = "0.4"
+
+[dev-dependencies]
+serde_json = "1"
